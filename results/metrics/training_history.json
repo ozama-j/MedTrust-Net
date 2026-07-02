@@ -1,0 +1,876 @@
+{
+  "train": [
+    {
+      "epoch": 1,
+      "stage": 1,
+      "bce": 0.9867899883472199,
+      "kl": 9.166549758130545,
+      "cal": 0.19534520906962957,
+      "total": 1.0154910596664266,
+      "epoch_time": 142.2449402809143
+    },
+    {
+      "epoch": 2,
+      "stage": 1,
+      "bce": 0.9795368101673194,
+      "kl": 7.846253888038554,
+      "cal": 0.19646692676370253,
+      "total": 1.0070297580172582,
+      "epoch_time": 138.86000657081604
+    },
+    {
+      "epoch": 3,
+      "stage": 1,
+      "bce": 0.9740281110344409,
+      "kl": 8.96283533394973,
+      "cal": 0.1925193102652492,
+      "total": 1.0022428781324435,
+      "epoch_time": 135.6926989555359
+    },
+    {
+      "epoch": 4,
+      "stage": 1,
+      "bce": 0.9713955080381916,
+      "kl": 10.125042278995718,
+      "cal": 0.19312729528737238,
+      "total": 1.0008332807822584,
+      "epoch_time": 135.11353063583374
+    },
+    {
+      "epoch": 5,
+      "stage": 1,
+      "bce": 0.9689067156713628,
+      "kl": 10.716667812489954,
+      "cal": 0.19026118607734233,
+      "total": 0.998649502245981,
+      "epoch_time": 134.6808009147644
+    },
+    {
+      "epoch": 6,
+      "stage": 2,
+      "bce": 0.9304275647389083,
+      "kl": 9.811607193692298,
+      "cal": 0.1841862293696064,
+      "total": 0.9586577938332677,
+      "epoch_time": 206.75743222236633
+    },
+    {
+      "epoch": 7,
+      "stage": 2,
+      "bce": 0.8862546132976898,
+      "kl": 8.395362000448424,
+      "cal": 0.17596109756318276,
+      "total": 0.9122460849344518,
+      "epoch_time": 208.34083771705627
+    },
+    {
+      "epoch": 8,
+      "stage": 2,
+      "bce": 0.8600618247459791,
+      "kl": 6.385711732708263,
+      "cal": 0.16707469155064045,
+      "total": 0.8831550058945218,
+      "epoch_time": 208.3552122116089
+    },
+    {
+      "epoch": 9,
+      "stage": 2,
+      "bce": 0.8451733070548318,
+      "kl": 5.939468570451295,
+      "cal": 0.1651560714289387,
+      "total": 0.8676283829364912,
+      "epoch_time": 208.07278895378113
+    },
+    {
+      "epoch": 10,
+      "stage": 2,
+      "bce": 0.8365052437867134,
+      "kl": 5.357979274729392,
+      "cal": 0.16345536618682413,
+      "total": 0.8582087591873794,
+      "epoch_time": 208.06755471229553
+    },
+    {
+      "epoch": 11,
+      "stage": 2,
+      "bce": 0.8288744353951084,
+      "kl": 5.3154900387937065,
+      "cal": 0.16011634115063422,
+      "total": 0.850201557539536,
+      "epoch_time": 207.98234367370605
+    },
+    {
+      "epoch": 12,
+      "stage": 2,
+      "bce": 0.8190521464229055,
+      "kl": 5.3877771935853245,
+      "cal": 0.1579518122167668,
+      "total": 0.8402351062492968,
+      "epoch_time": 207.2845630645752
+    },
+    {
+      "epoch": 13,
+      "stage": 2,
+      "bce": 0.8113633724081983,
+      "kl": 5.845845002720789,
+      "cal": 0.1573631971530961,
+      "total": 0.832945538267122,
+      "epoch_time": 207.12197589874268
+    },
+    {
+      "epoch": 14,
+      "stage": 2,
+      "bce": 0.8050065795721957,
+      "kl": 5.34958083010229,
+      "cal": 0.15583954615604623,
+      "total": 0.8259401153839355,
+      "epoch_time": 206.95487785339355
+    },
+    {
+      "epoch": 15,
+      "stage": 2,
+      "bce": 0.7976597592075524,
+      "kl": 5.440000630782593,
+      "cal": 0.15372379389309798,
+      "total": 0.8184721402001975,
+      "epoch_time": 207.95630884170532
+    },
+    {
+      "epoch": 16,
+      "stage": 2,
+      "bce": 0.7888859147703096,
+      "kl": 5.311161356040167,
+      "cal": 0.1515599759527585,
+      "total": 0.8093530734026559,
+      "epoch_time": 207.25131034851074
+    },
+    {
+      "epoch": 17,
+      "stage": 2,
+      "bce": 0.7844270100797198,
+      "kl": 5.524754497080087,
+      "cal": 0.15065888159003546,
+      "total": 0.8050176543697344,
+      "epoch_time": 207.26161861419678
+    },
+    {
+      "epoch": 18,
+      "stage": 2,
+      "bce": 0.7771582723300228,
+      "kl": 5.715193662779187,
+      "cal": 0.1479563612318548,
+      "total": 0.7976691018644176,
+      "epoch_time": 207.3598666191101
+    },
+    {
+      "epoch": 19,
+      "stage": 2,
+      "bce": 0.7696334543601474,
+      "kl": 5.794494366730659,
+      "cal": 0.14764955655085021,
+      "total": 0.7901929032548043,
+      "epoch_time": 207.23702263832092
+    },
+    {
+      "epoch": 20,
+      "stage": 2,
+      "bce": 0.7618957068572265,
+      "kl": 5.8425786257638626,
+      "cal": 0.14430230716077672,
+      "total": 0.7821685157424615,
+      "epoch_time": 207.19714379310608
+    },
+    {
+      "epoch": 21,
+      "stage": 2,
+      "bce": 0.7542193857588377,
+      "kl": 5.974896150975889,
+      "cal": 0.1445387994665056,
+      "total": 0.7746481614392847,
+      "epoch_time": 207.3926556110382
+    },
+    {
+      "epoch": 22,
+      "stage": 2,
+      "bce": 0.7464715987974214,
+      "kl": 6.143172976809464,
+      "cal": 0.14073557632700193,
+      "total": 0.7666883295753248,
+      "epoch_time": 207.03721117973328
+    },
+    {
+      "epoch": 23,
+      "stage": 2,
+      "bce": 0.7364252400567948,
+      "kl": 6.285745168495857,
+      "cal": 0.1397063145447138,
+      "total": 0.7566816177868758,
+      "epoch_time": 207.2250349521637
+    },
+    {
+      "epoch": 24,
+      "stage": 2,
+      "bce": 0.7310982253733903,
+      "kl": 6.293189614693041,
+      "cal": 0.13692788741952372,
+      "total": 0.7510842040340248,
+      "epoch_time": 206.84272623062134
+    },
+    {
+      "epoch": 25,
+      "stage": 2,
+      "bce": 0.7259791665229933,
+      "kl": 6.595777840800981,
+      "cal": 0.135857804641923,
+      "total": 0.7461607265302719,
+      "epoch_time": 207.06455039978027
+    },
+    {
+      "epoch": 26,
+      "stage": 2,
+      "bce": 0.7211464567116571,
+      "kl": 6.698549507351532,
+      "cal": 0.13520828227502596,
+      "total": 0.7413658351236391,
+      "epoch_time": 207.1625463962555
+    },
+    {
+      "epoch": 27,
+      "stage": 2,
+      "bce": 0.7158747856833333,
+      "kl": 6.809170411574883,
+      "cal": 0.13471636984139362,
+      "total": 0.7361555933103867,
+      "epoch_time": 206.8432056903839
+    },
+    {
+      "epoch": 28,
+      "stage": 2,
+      "bce": 0.7111782975680463,
+      "kl": 6.9453971530194805,
+      "cal": 0.13396670956999807,
+      "total": 0.7315203645051161,
+      "epoch_time": 207.53124833106995
+    },
+    {
+      "epoch": 29,
+      "stage": 2,
+      "bce": 0.7091547977245575,
+      "kl": 7.13061723335782,
+      "cal": 0.1324604990365136,
+      "total": 0.7295314653700357,
+      "epoch_time": 207.31764268875122
+    },
+    {
+      "epoch": 30,
+      "stage": 2,
+      "bce": 0.7092804060818038,
+      "kl": 7.124379844427957,
+      "cal": 0.1317661417402937,
+      "total": 0.7295814002217771,
+      "epoch_time": 207.59289121627808
+    }
+  ],
+  "val": [
+    {
+      "epoch": 1,
+      "stage": 1,
+      "per_class_auroc": {
+        "Atelectasis": 0.565305130249202,
+        "Cardiomegaly": 0.5561951477982012,
+        "Consolidation": 0.5320540113131804,
+        "Edema": 0.6657031088131699,
+        "Pleural Effusion": 0.6158193469636863
+      },
+      "macro_auroc": 0.587015349027488,
+      "macro_ece": 0.21821627351641654,
+      "per_class_ece": {
+        "Atelectasis": 0.20036512795090675,
+        "Cardiomegaly": 0.3521415984779596,
+        "Consolidation": 0.3003417746126652,
+        "Edema": 0.17918163053691388,
+        "Pleural Effusion": 0.059051236003637306
+      }
+    },
+    {
+      "epoch": 2,
+      "stage": 1,
+      "per_class_auroc": {
+        "Atelectasis": 0.5919132410786953,
+        "Cardiomegaly": 0.6260115344084809,
+        "Consolidation": 0.5544518940297786,
+        "Edema": 0.7059129607654782,
+        "Pleural Effusion": 0.7009602278506765
+      },
+      "macro_auroc": 0.6358499716266218,
+      "macro_ece": 0.18321563183665274,
+      "per_class_ece": {
+        "Atelectasis": 0.1518961346745491,
+        "Cardiomegaly": 0.32695418898761275,
+        "Consolidation": 0.21189176915585994,
+        "Edema": 0.14175420209765435,
+        "Pleural Effusion": 0.08358186426758767
+      }
+    },
+    {
+      "epoch": 3,
+      "stage": 1,
+      "per_class_auroc": {
+        "Atelectasis": 0.5846110398129645,
+        "Cardiomegaly": 0.6118485698638372,
+        "Consolidation": 0.5885271187260117,
+        "Edema": 0.7007702576707917,
+        "Pleural Effusion": 0.6688210761875699
+      },
+      "macro_auroc": 0.630915612452235,
+      "macro_ece": 0.19439449118971824,
+      "per_class_ece": {
+        "Atelectasis": 0.16977075370401146,
+        "Cardiomegaly": 0.32799389344453805,
+        "Consolidation": 0.26235680773854253,
+        "Edema": 0.15069619100540874,
+        "Pleural Effusion": 0.06115481005609035
+      }
+    },
+    {
+      "epoch": 4,
+      "stage": 1,
+      "per_class_auroc": {
+        "Atelectasis": 0.5781953982309321,
+        "Cardiomegaly": 0.600649280038593,
+        "Consolidation": 0.5572380805335004,
+        "Edema": 0.7086941524928896,
+        "Pleural Effusion": 0.6655762384294578
+      },
+      "macro_auroc": 0.6220706299450746,
+      "macro_ece": 0.1801961326792836,
+      "per_class_ece": {
+        "Atelectasis": 0.16737277835607528,
+        "Cardiomegaly": 0.2758617894500494,
+        "Consolidation": 0.2495200932919979,
+        "Edema": 0.1498081875219941,
+        "Pleural Effusion": 0.05841781477630138
+      }
+    },
+    {
+      "epoch": 5,
+      "stage": 1,
+      "per_class_auroc": {
+        "Atelectasis": 0.5989330301871189,
+        "Cardiomegaly": 0.6386056691400204,
+        "Consolidation": 0.6158945974650616,
+        "Edema": 0.7081190785632216,
+        "Pleural Effusion": 0.6884080968365376
+      },
+      "macro_auroc": 0.649992094438392,
+      "macro_ece": 0.15646947239115833,
+      "per_class_ece": {
+        "Atelectasis": 0.14966093403100966,
+        "Cardiomegaly": 0.2668584933504462,
+        "Consolidation": 0.22070152929425235,
+        "Edema": 0.06471216648444533,
+        "Pleural Effusion": 0.08041423879563808
+      }
+    },
+    {
+      "epoch": 6,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6461196927069741,
+        "Cardiomegaly": 0.716098151212655,
+        "Consolidation": 0.6473091817048997,
+        "Edema": 0.7502895971068543,
+        "Pleural Effusion": 0.7816905706438816
+      },
+      "macro_auroc": 0.7083014386750529,
+      "macro_ece": 0.16977619248442352,
+      "per_class_ece": {
+        "Atelectasis": 0.17380453565716744,
+        "Cardiomegaly": 0.25552780505828565,
+        "Consolidation": 0.25495218569785355,
+        "Edema": 0.12310002011805773,
+        "Pleural Effusion": 0.04149641589075327
+      }
+    },
+    {
+      "epoch": 7,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6682956009242146,
+        "Cardiomegaly": 0.7633745954356641,
+        "Consolidation": 0.6494769954413528,
+        "Edema": 0.7899997174662372,
+        "Pleural Effusion": 0.8092574509205573
+      },
+      "macro_auroc": 0.7360808720376053,
+      "macro_ece": 0.14045266452766958,
+      "per_class_ece": {
+        "Atelectasis": 0.17551261666789653,
+        "Cardiomegaly": 0.15880215907469394,
+        "Consolidation": 0.24408198638260364,
+        "Edema": 0.08100113477557898,
+        "Pleural Effusion": 0.04286542573757471
+      }
+    },
+    {
+      "epoch": 8,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6691196009528133,
+        "Cardiomegaly": 0.8047948658635682,
+        "Consolidation": 0.6505109958062941,
+        "Edema": 0.7982956150760016,
+        "Pleural Effusion": 0.8290133251958093
+      },
+      "macro_auroc": 0.7503468805788973,
+      "macro_ece": 0.14863573115617038,
+      "per_class_ece": {
+        "Atelectasis": 0.1371675671990961,
+        "Cardiomegaly": 0.23744443252123892,
+        "Consolidation": 0.21889809181168676,
+        "Edema": 0.11326504340022804,
+        "Pleural Effusion": 0.03640352084860205
+      }
+    },
+    {
+      "epoch": 9,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6758462533916271,
+        "Cardiomegaly": 0.8229683802202885,
+        "Consolidation": 0.6562518032623258,
+        "Edema": 0.7990325573072649,
+        "Pleural Effusion": 0.8342528735632183
+      },
+      "macro_auroc": 0.757670373548945,
+      "macro_ece": 0.13278280154522507,
+      "per_class_ece": {
+        "Atelectasis": 0.15346408007293938,
+        "Cardiomegaly": 0.21267132860887794,
+        "Consolidation": 0.20411109127290547,
+        "Edema": 0.05710426495596767,
+        "Pleural Effusion": 0.03656324281543493
+      }
+    },
+    {
+      "epoch": 10,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6750115288507256,
+        "Cardiomegaly": 0.8150026394301203,
+        "Consolidation": 0.6574823104839528,
+        "Edema": 0.809388596937334,
+        "Pleural Effusion": 0.8417571966229276
+      },
+      "macro_auroc": 0.759728454465012,
+      "macro_ece": 0.13137951862942426,
+      "per_class_ece": {
+        "Atelectasis": 0.1372738835588098,
+        "Cardiomegaly": 0.1745014217970893,
+        "Consolidation": 0.2141061747185886,
+        "Edema": 0.10182706840895116,
+        "Pleural Effusion": 0.02918904466368258
+      }
+    },
+    {
+      "epoch": 11,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6829774582667519,
+        "Cardiomegaly": 0.8209813935004774,
+        "Consolidation": 0.660443169749173,
+        "Edema": 0.8108718991919533,
+        "Pleural Effusion": 0.8389126233343505
+      },
+      "macro_auroc": 0.7628373088085413,
+      "macro_ece": 0.157771252181381,
+      "per_class_ece": {
+        "Atelectasis": 0.18819898203946647,
+        "Cardiomegaly": 0.21507297343574464,
+        "Consolidation": 0.2473547940328717,
+        "Edema": 0.06634680688008666,
+        "Pleural Effusion": 0.07188270451873542
+      }
+    },
+    {
+      "epoch": 12,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6808742622429245,
+        "Cardiomegaly": 0.8242515189080075,
+        "Consolidation": 0.6510240970431955,
+        "Edema": 0.8163777758942193,
+        "Pleural Effusion": 0.8457481436273013
+      },
+      "macro_auroc": 0.7636551595431296,
+      "macro_ece": 0.1867834068953991,
+      "per_class_ece": {
+        "Atelectasis": 0.19251728708297017,
+        "Cardiomegaly": 0.26529096582904454,
+        "Consolidation": 0.2669824062138796,
+        "Edema": 0.13866078833863138,
+        "Pleural Effusion": 0.07046558701246976
+      }
+    },
+    {
+      "epoch": 13,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.682603291948632,
+        "Cardiomegaly": 0.8278518202182324,
+        "Consolidation": 0.6520502995169986,
+        "Edema": 0.8134276525211429,
+        "Pleural Effusion": 0.8445559963381142
+      },
+      "macro_auroc": 0.764097812108624,
+      "macro_ece": 0.15513178870845584,
+      "per_class_ece": {
+        "Atelectasis": 0.1952913329117,
+        "Cardiomegaly": 0.21200028447620567,
+        "Consolidation": 0.24931242103688417,
+        "Edema": 0.07451738446298986,
+        "Pleural Effusion": 0.04453752065449953
+      }
+    },
+    {
+      "epoch": 14,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6936054499588298,
+        "Cardiomegaly": 0.8275394382264613,
+        "Consolidation": 0.6695300522926579,
+        "Edema": 0.8129697123806295,
+        "Pleural Effusion": 0.8455370765944461
+      },
+      "macro_auroc": 0.769836345890605,
+      "macro_ece": 0.12723300550840794,
+      "per_class_ece": {
+        "Atelectasis": 0.14295360069163143,
+        "Cardiomegaly": 0.1867664378788322,
+        "Consolidation": 0.21198722006566822,
+        "Edema": 0.04735162322595715,
+        "Pleural Effusion": 0.047106145679950716
+      }
+    },
+    {
+      "epoch": 15,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6871886167643193,
+        "Cardiomegaly": 0.8200976292579345,
+        "Consolidation": 0.6686161394512469,
+        "Edema": 0.8247384208246218,
+        "Pleural Effusion": 0.8449262536873157
+      },
+      "macro_auroc": 0.7691134119970877,
+      "macro_ece": 0.1380531548835337,
+      "per_class_ece": {
+        "Atelectasis": 0.12692848472669718,
+        "Cardiomegaly": 0.22299230973049994,
+        "Consolidation": 0.2169525827150792,
+        "Edema": 0.08430448428727685,
+        "Pleural Effusion": 0.03908791295811534
+      }
+    },
+    {
+      "epoch": 16,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6897064939305217,
+        "Cardiomegaly": 0.8161137703122435,
+        "Consolidation": 0.6618350933173632,
+        "Edema": 0.8247607880808424,
+        "Pleural Effusion": 0.8478608483368935
+      },
+      "macro_auroc": 0.7680553987955728,
+      "macro_ece": 0.16126816429477184,
+      "per_class_ece": {
+        "Atelectasis": 0.16300231645256283,
+        "Cardiomegaly": 0.25256464900542047,
+        "Consolidation": 0.2436253245770931,
+        "Edema": 0.09782367566227913,
+        "Pleural Effusion": 0.04932485577650369
+      }
+    },
+    {
+      "epoch": 17,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6898375713031116,
+        "Cardiomegaly": 0.8217643255811194,
+        "Consolidation": 0.6705968038003801,
+        "Edema": 0.8254694769358272,
+        "Pleural Effusion": 0.8484854033160409
+      },
+      "macro_auroc": 0.7712307161872959,
+      "macro_ece": 0.13575718876589088,
+      "per_class_ece": {
+        "Atelectasis": 0.17060424828529358,
+        "Cardiomegaly": 0.17274090140033513,
+        "Consolidation": 0.22299299992620944,
+        "Edema": 0.035676979511976244,
+        "Pleural Effusion": 0.07677081470564008
+      }
+    },
+    {
+      "epoch": 18,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6870480064919049,
+        "Cardiomegaly": 0.8165289615671295,
+        "Consolidation": 0.6686629267980768,
+        "Edema": 0.8240061874894049,
+        "Pleural Effusion": 0.8501800427220019
+      },
+      "macro_auroc": 0.7692852250137037,
+      "macro_ece": 0.13654198207184673,
+      "per_class_ece": {
+        "Atelectasis": 0.17062721321731808,
+        "Cardiomegaly": 0.1647670773025602,
+        "Consolidation": 0.229264616234228,
+        "Edema": 0.04071235653012991,
+        "Pleural Effusion": 0.07733864707499742
+      }
+    },
+    {
+      "epoch": 19,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6899412415887054,
+        "Cardiomegaly": 0.8221281122044479,
+        "Consolidation": 0.6641947351758191,
+        "Edema": 0.8316840424930779,
+        "Pleural Effusion": 0.8542681314210152
+      },
+      "macro_auroc": 0.7724432525766132,
+      "macro_ece": 0.13917165278270843,
+      "per_class_ece": {
+        "Atelectasis": 0.1629293707385659,
+        "Cardiomegaly": 0.2047720779106021,
+        "Consolidation": 0.22058310856297614,
+        "Edema": 0.07174955481290818,
+        "Pleural Effusion": 0.035824151888489725
+      }
+    },
+    {
+      "epoch": 20,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6916547803321977,
+        "Cardiomegaly": 0.8187314523192386,
+        "Consolidation": 0.6707122125892274,
+        "Edema": 0.8324916181650374,
+        "Pleural Effusion": 0.8528145661682434
+      },
+      "macro_auroc": 0.7732809259147889,
+      "macro_ece": 0.14564155602389947,
+      "per_class_ece": {
+        "Atelectasis": 0.1702185984402895,
+        "Cardiomegaly": 0.21287577312812211,
+        "Consolidation": 0.22297847956605255,
+        "Edema": 0.08051223718235269,
+        "Pleural Effusion": 0.041622691802680495
+      }
+    },
+    {
+      "epoch": 21,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6870408568170362,
+        "Cardiomegaly": 0.8169975345547863,
+        "Consolidation": 0.6672912777468462,
+        "Edema": 0.8282159405548963,
+        "Pleural Effusion": 0.8536913843962974
+      },
+      "macro_auroc": 0.7706473988139725,
+      "macro_ece": 0.12881606336385013,
+      "per_class_ece": {
+        "Atelectasis": 0.1444211188592017,
+        "Cardiomegaly": 0.17370882962457834,
+        "Consolidation": 0.21076498364284635,
+        "Edema": 0.05689375809580087,
+        "Pleural Effusion": 0.05829162659682334
+      }
+    },
+    {
+      "epoch": 22,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6904250362548097,
+        "Cardiomegaly": 0.8118175293747812,
+        "Consolidation": 0.6729767201757957,
+        "Edema": 0.8327753291518336,
+        "Pleural Effusion": 0.8527728613569322
+      },
+      "macro_auroc": 0.7721534952628305,
+      "macro_ece": 0.13518952230513098,
+      "per_class_ece": {
+        "Atelectasis": 0.16367216953635216,
+        "Cardiomegaly": 0.1578732914980501,
+        "Consolidation": 0.2149739412851632,
+        "Edema": 0.08235887290351093,
+        "Pleural Effusion": 0.05706933630257845
+      }
+    },
+    {
+      "epoch": 23,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6854977186579108,
+        "Cardiomegaly": 0.8078494872388002,
+        "Consolidation": 0.6695737204830325,
+        "Edema": 0.8321949577141134,
+        "Pleural Effusion": 0.8522184925236498
+      },
+      "macro_auroc": 0.7694668753235014,
+      "macro_ece": 0.1274627580622211,
+      "per_class_ece": {
+        "Atelectasis": 0.17687623716145753,
+        "Cardiomegaly": 0.12481793501973153,
+        "Consolidation": 0.22575223914161321,
+        "Edema": 0.051884566751308744,
+        "Pleural Effusion": 0.0579828122369945
+      }
+    },
+    {
+      "epoch": 24,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6819169231612525,
+        "Cardiomegaly": 0.8088993279832973,
+        "Consolidation": 0.6704275895626786,
+        "Edema": 0.8305291857376956,
+        "Pleural Effusion": 0.8507700132234768
+      },
+      "macro_auroc": 0.7685086079336801,
+      "macro_ece": 0.13295887610428034,
+      "per_class_ece": {
+        "Atelectasis": 0.1873136018514633,
+        "Cardiomegaly": 0.1414683529017493,
+        "Consolidation": 0.23484591520018874,
+        "Edema": 0.05294120408315212,
+        "Pleural Effusion": 0.04822530648484826
+      }
+    },
+    {
+      "epoch": 25,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6834302710084259,
+        "Cardiomegaly": 0.8135652868477296,
+        "Consolidation": 0.6718343291240317,
+        "Edema": 0.8326787967828824,
+        "Pleural Effusion": 0.8510090529956261
+      },
+      "macro_auroc": 0.7705035473517391,
+      "macro_ece": 0.1325886545125395,
+      "per_class_ece": {
+        "Atelectasis": 0.14846093045547604,
+        "Cardiomegaly": 0.165359902061522,
+        "Consolidation": 0.20236381264403464,
+        "Edema": 0.08900304642133414,
+        "Pleural Effusion": 0.05775558098033072
+      }
+    },
+    {
+      "epoch": 26,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6831895652878519,
+        "Cardiomegaly": 0.811957903560957,
+        "Consolidation": 0.6689919978041139,
+        "Edema": 0.8330755212747922,
+        "Pleural Effusion": 0.8508849557522125
+      },
+      "macro_auroc": 0.7696199887359855,
+      "macro_ece": 0.1380688305489719,
+      "per_class_ece": {
+        "Atelectasis": 0.18179389192163944,
+        "Cardiomegaly": 0.15407113863527777,
+        "Consolidation": 0.22986184689402578,
+        "Edema": 0.06617614798992871,
+        "Pleural Effusion": 0.05844112730398775
+      }
+    },
+    {
+      "epoch": 27,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.685501293495345,
+        "Cardiomegaly": 0.8076695710283497,
+        "Consolidation": 0.6710677964251348,
+        "Edema": 0.8329907611459568,
+        "Pleural Effusion": 0.8511575628115144
+      },
+      "macro_auroc": 0.7696773969812603,
+      "macro_ece": 0.13090751879755408,
+      "per_class_ece": {
+        "Atelectasis": 0.17536733595654366,
+        "Cardiomegaly": 0.14330000254604966,
+        "Consolidation": 0.21850840355828405,
+        "Edema": 0.05501237117126583,
+        "Pleural Effusion": 0.06234948075562716
+      }
+    },
+    {
+      "epoch": 28,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.683805628939024,
+        "Cardiomegaly": 0.8074145249717769,
+        "Consolidation": 0.669905910645525,
+        "Edema": 0.8334180934621688,
+        "Pleural Effusion": 0.850575729834198
+      },
+      "macro_auroc": 0.7690239775705385,
+      "macro_ece": 0.13771020626351235,
+      "per_class_ece": {
+        "Atelectasis": 0.19085928113758566,
+        "Cardiomegaly": 0.15503950374387204,
+        "Consolidation": 0.22898211009800434,
+        "Edema": 0.055257709192112085,
+        "Pleural Effusion": 0.05841242714598774
+      }
+    },
+    {
+      "epoch": 29,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6839855624232156,
+        "Cardiomegaly": 0.8079918385261897,
+        "Consolidation": 0.6711052263025987,
+        "Edema": 0.8328330131284021,
+        "Pleural Effusion": 0.8510660156647339
+      },
+      "macro_auroc": 0.7693963312090281,
+      "macro_ece": 0.13245847965441643,
+      "per_class_ece": {
+        "Atelectasis": 0.1741164217405021,
+        "Cardiomegaly": 0.14810748779773714,
+        "Consolidation": 0.21981941800564525,
+        "Edema": 0.06161555949784814,
+        "Pleural Effusion": 0.058633511230349544
+      }
+    },
+    {
+      "epoch": 30,
+      "stage": 2,
+      "per_class_auroc": {
+        "Atelectasis": 0.6849519601429458,
+        "Cardiomegaly": 0.8080471973601744,
+        "Consolidation": 0.6707933106570658,
+        "Edema": 0.8325175170932926,
+        "Pleural Effusion": 0.8503407588241277
+      },
+      "macro_auroc": 0.7693301488155213,
+      "macro_ece": 0.13007611311655493,
+      "per_class_ece": {
+        "Atelectasis": 0.1685330879501998,
+        "Cardiomegaly": 0.14719558052718643,
+        "Consolidation": 0.22006765458732847,
+        "Edema": 0.057533676682971414,
+        "Pleural Effusion": 0.05705056583508849
+      }
+    }
+  ]
+}

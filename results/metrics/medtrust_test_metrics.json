@@ -1,0 +1,18 @@
+{
+  "per_class_auroc": {
+    "Atelectasis": 0.8263517060367455,
+    "Cardiomegaly": 0.8078208556149732,
+    "Consolidation": 0.8871323529411764,
+    "Edema": 0.915327380952381,
+    "Pleural Effusion": 0.9187047101449276
+  },
+  "macro_auroc": 0.8710674011380407,
+  "macro_ece": 0.10185454693613664,
+  "per_class_ece": {
+    "Atelectasis": 0.08386848387446734,
+    "Cardiomegaly": 0.059415165851316835,
+    "Consolidation": 0.19827616096723197,
+    "Edema": 0.09381545681764583,
+    "Pleural Effusion": 0.07389746717002131
+  }
+}

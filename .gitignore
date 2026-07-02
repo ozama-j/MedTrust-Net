@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+*.egg-info/
+
+# # Notebook checkpoints
+# .ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+.env
+
+# Model checkpoints (linked to Drive instead)
+results/checkpoints/*.pt
+backend/checkpoints/*.pt
+
+# OS
+.DS_Store
+Thumbs.db
