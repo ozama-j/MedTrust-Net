@@ -14,6 +14,59 @@ The novel contribution is the **Confidence-Aware Attention Block (CAB)** — a s
 
 ---
 
+## Getting started (clone & run)
+
+Model checkpoints are **not** stored in this repo (too large for GitHub) — download them from Google Drive first.
+
+### Prerequisites
+
+- Python 3.11+
+- Node.js 18+
+- A [Groq API key](https://console.groq.com) (for the `/explain` endpoint)
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/ozama-j/MedTrust-Net.git
+cd MedTrust-Net
+```
+
+### 2. Download the model checkpoints
+
+Download `best.pt` and `resnet50_baseline.pt` from Google Drive and place them in `backend/checkpoints/`:
+
+- **Google Drive folder:** <
+https://drive.google.com/drive/folders/1_2rG7sKxcezrMlvx0RGHupftvajYvvXq?usp=sharing
+```bash
+mkdir -p backend/checkpoints
+# move/copy the downloaded best.pt and resnet50_baseline.pt into backend/checkpoints/
+```
+
+### 3. Run the backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+
+export GROQ_API_KEY="your_groq_key"
+export CHECKPOINT_DIR="./checkpoints"
+
+uvicorn main:app --reload --port 8000
+```
+
+### 4. Run the frontend
+
+```bash
+cd frontend
+cp .env.example .env
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 — the backend must be running on port 8000 for predictions to work.
+
+---
+
 ## Repository layout
 
 ```
@@ -48,8 +101,9 @@ medtrust-net/
 
 ---
 
-## Quick start
+## Retraining from scratch (optional)
 
+Only needed if you want to reproduce the checkpoints yourself instead of using the pretrained ones from Google Drive.
 
 ### 1. Train the hero model
 
